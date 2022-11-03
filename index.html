@@ -40,6 +40,15 @@
         <script src="js/modernizr-2.6.2.min.js"></script>
 
     </head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="w3-container">
+
+
+
+
 	
     <body id="body">
 	
@@ -103,28 +112,11 @@
 					</div>
 					<!-- end single slide -->
 					
-					<!-- single slide -->
-					<div class="item" style="background-image: url(img/banner.jpg);">
-						<div class="carousel-caption">
-							<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Team</span>!</h2>
-							<h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color">/creative</span> one page template.</h3>
-							<p data-wow-duration="500ms" class="wow slideInRight animated">We are a team of professionals</p>
-							
-							<ul class="social-links text-center">
-								<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- end single slide -->
-					
 				</div>
 				<!-- End Wrapper for slides -->
 				
 			</div>
-		</section>
+	
 		
        
 		
@@ -143,12 +135,49 @@
 					</div>
 					
 					<div class="sec-sub-title text-center">
-						<p>Clase numero 1</p>
+						<p>Que es matemática discreta </p>
 					</div>
 					
-			<h2>el tema del dia de hoy</h2>
+					<p>la matemática discreta estudia una serie de estructuras como algoritmos, grafos y teoría de números, que son el fundamento de las ciencias de la computación.</p>
+					<br> 
+					<p>Pensemos que en que el cálculo infinitesimal se trabaja sobre los números reales, mientras que la matemática discreta descansa sobre la base de los números naturales.</p><br>
+					<p>Principio de la suma o adición: Supongamos que un evento E puede ocurrir en m formas y un segundo evento F puede ocurrir en n formas, y supongamos que ambos eventos no pueden ocurrir en forma simultánea (disjuntos o mutuamente excluyentes).</p><br>
+					<h2>Ejemplo </h2><br>
+					<p>En la Biblioteca de la UMG Jalapa, tienen 25 libros 
+					de Matemática Discreta, 15 de Algoritmos y 5 de 
+					Contabilidad II. Si un alumno solo puede pedir 
+					prestado un libro a la vez ¿Con cuantas opciones 
+					cuenta?</p> <br>
+					<h2>25 + 15 + 5 = 45 Opciones</h2><br>
+					<h2>Ejercicio</h2><br>
+					<h2>¿Cuántos resultados distintos se pueden obtener si se 
+lanza en el siguiente orden: una moneda, un dado, 
+una moneda?</h2>
 
-		</section>
+	
+
+			<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align">Respuesta</button>
+<div id="Demo1" class="w3-container w3-hide">
+  <h4>Moneda 2 Lados<br>
+Dado 6 Lados<br>
+Moneda 2 Lados</h4>
+  <h4>2 * 6 * 2 =  24 resultados distintos</h4>
+</div>
+
+</div>
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+
+
 		
         <!--
         End Our Contenid
@@ -183,7 +212,8 @@
 					
 				</div>
 			</div>
-			
+
+
 			<div class="project-wrapper">
 			
 				<figure class="mix work-item branding">
